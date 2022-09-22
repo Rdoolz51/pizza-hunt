@@ -25,7 +25,7 @@ const printPizza = ({ _id, pizzaName, toppings, size, commentCount, createdBy, c
           <ul>
             ${toppings
       .map(topping => {
-        return `<li>${topping}</li>`;
+        return `<li>${topping}</li> `;
       })
       .join('')}
           </ul>
